@@ -1,0 +1,186 @@
+/* 
+*   templet name: Opsima
+*   Degin by : Prasanta
+*/
+
+    /* add web-site fonts */
+@font-face {
+    font-family: baushus-r;
+    src: url(../fonts/BauhausRegular.ttf);
+}
+@font-face {
+    font-family: raleway-m;
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+@font-face {
+    font-family: raleway-r;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+/* --------------utility------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.container{
+    margin: auto;
+    max-width: 1150px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+    /* ----------- main style start------------ */
+/* banner part start  */
+.bannerContent{
+    background-color: #262626;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.bannerContent .titelText{
+    padding-bottom: 5px;
+
+}
+.bannerContent .titelText h4 {
+    font-family: raleway-r;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    border-bottom: 0.1px solid white;
+    max-width: fit-content;
+    display: inline-block;   
+}
+.bannerContent .mainTitel h1{
+    font-family: raleway-m;
+    text-transform: uppercase;
+    color: white;
+    font-size: 66px;
+    margin-top: 5px;
+}
+.bannerContent .mainTitel h1 > span{
+    color: #26cdb3;
+}
+/* banner part stop  */
+ /* our service part start  */
+ .serviceGroupDiv{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.serviceGroupDiv .serviceTitel h2{
+    color: black;
+    font-family: raleway-m;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.serviceGroupDiv .serviceTitel img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.serviceGroupDiv .serviceTitel p{
+    font-family: baushus-r;
+    font-size: 14px;
+    line-height: 20px;
+}
+.serviceGroupDiv .serviceCard{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.serviceGroupDiv .serviceCard .portfolioItem{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.serviceGroupDiv .serviceCard .portfolioItem a{
+    border: .5px solid #66d6c5;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+.serviceGroupDiv .serviceCard .portfolioItem i{
+    color: #66d6c5;
+    font-size: 25px;
+    padding: 18px;
+}
+.serviceGroupDiv .serviceCard .portfolioItem a:hover{
+    background-color: #25b9d4;
+    border: .5px solid #25b9d4;
+}
+.serviceGroupDiv .serviceCard .portfolioItem i:hover{
+    color: white;
+}
+.serviceGroupDiv .serviceCard .portfolioItem h3{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: raleway-r;
+}
+.serviceGroupDiv .serviceCard .portfolioItem hr{
+    width: 35%;
+    display: inline-block;
+    color: #66d6c5;
+}
+.serviceGroupDiv .serviceCard .portfolioItem p{
+    font-family: baushus-r;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+/* our service part stop  */
+
+/* sume fun facts start  */
+.ourFacts{
+    background-color: #262626;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.ourFacts .factsTitel {
+    margin-bottom: 20px;
+}
+.ourFacts .factsTitel h2{
+    color: white;
+    font-family: raleway-m;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.ourFacts .factsTitel img{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.ourFacts .factsArea {
+    display: flex;
+    justify-content: space-evenly;
+}
+.ourFacts .factsArea .factsItem i{
+    color: #26cdb3;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.ourFacts .factsArea .factsItem h3{
+    font-size: 40px;
+    font-family: raleway-r;
+    color: white;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.ourFacts .factsArea .factsItem p{
+    font-family: baushus-r;
+    color: #26cdb3;
+    font-size: 14px;
+}
+/* sume fun facts stop */
+  /* ----------- main style stop ------------ */
