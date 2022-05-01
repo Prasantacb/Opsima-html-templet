@@ -4,7 +4,7 @@
 */
 
     /* add web-site fonts */
-@font-face {
+/* @font-face {
     font-family: baushus-r;
     src: url(../fonts/BauhausRegular.ttf);
 }
@@ -15,7 +15,7 @@
 @font-face {
     font-family: raleway-r;
     src: url(../fonts/Raleway-Regular.ttf);
-}
+} */
 
 /* --------------utility------------- */
 *{
@@ -45,15 +45,16 @@ a{
 .bannerContent{
     background-color: #262626;
     text-align: center;
-    padding-top: 110px;
-    padding-bottom: 110px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 .bannerContent .titelText{
     padding-bottom: 5px;
 
 }
 .bannerContent .titelText h4 {
-    font-family: raleway-r;
+    font-family: Raleway;
+    font-weight: 300;
     text-transform: uppercase;
     color: white;
     font-size: 16px;
@@ -62,11 +63,12 @@ a{
     display: inline-block;   
 }
 .bannerContent .mainTitel h1{
-    font-family: raleway-m;
+    font-family: Raleway;
+    font-weight: 500;
     text-transform: uppercase;
     color: white;
-    font-size: 66px;
-    margin-top: 5px;
+    font-size: 55px;
+    margin-top: 10px;
 }
 .bannerContent .mainTitel h1 > span{
     color: #26cdb3;
@@ -75,12 +77,12 @@ a{
  /* our service part start  */
  .serviceGroupDiv{
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 .serviceGroupDiv .serviceTitel h2{
     color: black;
-    font-family: raleway-m;
+    font-family: Raleway;
     text-transform: uppercase;
     font-size: 30px;
 }
@@ -89,9 +91,12 @@ a{
     padding-bottom: 10px;
 }
 .serviceGroupDiv .serviceTitel p{
-    font-family: baushus-r;
-    font-size: 14px;
+    font-family: Lato;
+    font-style: italic;
+    font-size: 16px;
+    color: #989ca3;
     line-height: 20px;
+    margin-bottom: 20px;
 }
 .serviceGroupDiv .serviceCard{
     display: grid;
@@ -107,14 +112,15 @@ a{
 .serviceGroupDiv .serviceCard .portfolioItem a{
     border: .5px solid #66d6c5;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
     text-align: center;
+    margin-bottom: 25px;
 }
 .serviceGroupDiv .serviceCard .portfolioItem i{
     color: #66d6c5;
     font-size: 25px;
-    padding: 18px;
+    padding: 25px;
 }
 .serviceGroupDiv .serviceCard .portfolioItem a:hover{
     background-color: #25b9d4;
@@ -124,20 +130,23 @@ a{
     color: white;
 }
 .serviceGroupDiv .serviceCard .portfolioItem h3{
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-family: raleway-r;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 22px;
 }
 .serviceGroupDiv .serviceCard .portfolioItem hr{
     width: 35%;
     display: inline-block;
     color: #66d6c5;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .serviceGroupDiv .serviceCard .portfolioItem p{
-    font-family: baushus-r;
-    font-size: 14px;
+    font-family: Lato;
+    font-style: italic;
+    font-size: 16px;
+    color: #989ca3;
     line-height: 20px;
-    padding-top: 10px;
 }
 /* our service part stop  */
 
@@ -153,7 +162,8 @@ a{
 }
 .ourFacts .factsTitel h2{
     color: white;
-    font-family: raleway-m;
+    font-family: Raleway;
+    font-weight: 500;
     text-transform: uppercase;
     font-size: 30px;
 }
@@ -172,13 +182,14 @@ a{
 }
 .ourFacts .factsArea .factsItem h3{
     font-size: 40px;
-    font-family: raleway-r;
+    font-family: Raleway;
+    font-weight: 500;
     color: white;
     font-style: italic;
     margin-bottom: 5px;
 }
 .ourFacts .factsArea .factsItem p{
-    font-family: baushus-r;
+    font-family: Lato;
     color: #26cdb3;
     font-size: 14px;
 }
