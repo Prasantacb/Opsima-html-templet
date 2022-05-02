@@ -77,8 +77,8 @@ a{
  /* our service part start  */
  .serviceGroupDiv{
     text-align: center;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .serviceGroupDiv .serviceTitel h2{
     color: black;
@@ -154,11 +154,12 @@ a{
 .ourFacts{
     background-color: #262626;
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+
 }
 .ourFacts .factsTitel {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .ourFacts .factsTitel h2{
     color: white;
@@ -177,21 +178,23 @@ a{
 }
 .ourFacts .factsArea .factsItem i{
     color: #26cdb3;
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 5px;
 }
 .ourFacts .factsArea .factsItem h3{
     font-size: 40px;
-    font-family: Raleway;
-    font-weight: 500;
-    color: white;
+    font-family: Lato;
     font-style: italic;
-    margin-bottom: 5px;
+    font-weight: 300;
+    color: white;
+    margin: 18px 0;
 }
 .ourFacts .factsArea .factsItem p{
-    font-family: Lato;
     color: #26cdb3;
-    font-size: 14px;
+    font-family: Lato;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 20px;
 }
 /* sume fun facts stop */
   /* ----------- main style stop ------------ */
