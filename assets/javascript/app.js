@@ -5,9 +5,9 @@ $('.slickCard').slick({
     slidesToShow: 4,
     slidesToScroll: 4,
     autoplay: true,
-    pauseOnHover: true,
     autoplaySpeed: 1000,
-    prevArrow: "<div id='prev'>prasanta<div/>",
+    prevArrow: "<div id='prev'> <i class='fa-solid fa-circle-left'></i> </i><div/>",
+    nextArrow: "<div id='next'> <i class='fa-solid fa-circle-right'></i> <div/>",
     responsive: [
       {
         breakpoint: 1024,
